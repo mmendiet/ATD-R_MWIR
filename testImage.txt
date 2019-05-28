@@ -1,0 +1,3 @@
+ATD_MWIR/testImage/img_0000.jpg
+ATD_MWIR/testImage/img_0006.jpg
+ATD_MWIR/testImage/img_0206.jpg
