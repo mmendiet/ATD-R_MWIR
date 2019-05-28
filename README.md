@@ -7,7 +7,7 @@ Folder - ATD_MWIR:
         configuration4.cfg: Configuration file for this network as explained in the report.
         configuration4_4000.weights: Weights of trained network after 4000 iterations
 
-    Folder: scripts_allData
+   Folder: scripts_allData
         parseTestGT_all.py: Parsing Script for all testing data ground truth
         parseTrainGT_all.py: Parsing Script for all training data ground truth
         allData_guideFiles.py: Parsing script to write guiding text documents for training and testing in Darknet
@@ -17,22 +17,22 @@ Folder - ATD_MWIR:
         allTXT_parse.py: Python script to combine all gourng truth label txt files for testing and training images into allData folder for Darknet
         Macro3.jim: ImageJ script used to convert arf image sequence format of database images into jpg images for use in Darknet
 
-    Folder - testImage: Contains three test jpg images
+   Folder - testImage: Contains three test jpg images
 
-    allData.data: Setup file needed to run Darknet model. Specifies the number of classes and where to find class names
-    alldata.names: Contains class names
+   allData.data: Setup file needed to run Darknet model. Specifies the number of classes and where to find class names
+   alldata.names: Contains class names
     
-    ATD_image_demo.sh: Bash script for running trained model on testImage set
+   ATD_image_demo.sh: Bash script for running trained model on testImage set
 
-    ATD_video_demo.sh: Bash script for running trained model on demo.mp4 video
+   ATD_video_demo.sh: Bash script for running trained model on demo.mp4 video
 
-    demo.mp4: Video with segments of all test set senarios
+   demo.mp4: Video with segments of all test set senarios
 
-    testImage.txt: Contains image paths for runing ATD_image_demo.sh
+   testImage.txt: Contains image paths for runing ATD_image_demo.sh
 
-    demonstration.mp4: Screen capture showing the steps to run the provided network, as well as shows the network running on the test images and demo video.
+   demonstration.mp4: Screen capture showing the steps to run the provided network, as well as shows the network running on the test images and demo video.
 
-    Steps completed in the video:
+   Steps completed in the video:
     1. Download the ATD_MWIR folder in Google Drive: https://drive.google.com/open?id=1guQqO5O9tLSUYBXlbQHfYrx1AqMEv7ir
     2. git clone https://github.com/AlexeyAB/darknet.git
         NOTE: Ensure that all depadancies for this repository (https://github.com/AlexeyAB/darknet) are installed and functioning
