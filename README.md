@@ -4,7 +4,7 @@ Automatic Target Detection and Recognition for MWIR Imagery
 ## Folder - ATD_MWIR:
 ### Folder - configuration4:
     configuration4.cfg: Configuration file for this network as explained in the report.
-    configuration4_4000.weights: Weights of trained network after 4000 iterations
+    configuration4_4000.weights: Weights of trained network after 4000 iterations (Needs to be downloaded, see instructions at the bottom of the page)
 
 ### Folder: scripts_allData
     parseTestGT_all.py: Parsing Script for all testing data ground truth
@@ -27,11 +27,11 @@ ATD_image_demo.sh: Bash script for running trained model on testImage set
 
 ATD_video_demo.sh: Bash script for running trained model on demo.mp4 video
 
-demo.mp4: Video with segments of all test set senarios
+demo.mp4: Video with segments of all test set senarios (Needs to be downloaded, see instructions at the bottom of the page) 
 
 testImage.txt: Contains image paths for runing ATD_image_demo.sh
 
-demonstration.mp4: Screen capture showing the steps to run the provided network, as well as shows the network running on the test images and demo video.
+demonstration.mp4: Screen capture showing the steps to run the provided network, as well as shows the network running on the test images and demo video. (Needs to be downloaded, see instructions at the bottom of the page)
 
 ## Steps to complete first
     First, clone this repository, and rename it to ATD_MWIR.
