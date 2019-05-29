@@ -34,7 +34,7 @@ testImage.txt: Contains image paths for runing ATD_image_demo.sh
 demonstration.mp4: Screen capture showing the steps to run the provided network, as well as shows the network running on the test images and demo video.
 
 ## Steps to complete first
-    First, clone this repository.
+    First, clone this repository, and rename it to ATD_MWIR.
     Next, download the network weights here: https://drive.google.com/open?id=1w1_NocNTNXofW-BT_mZLheRRXpNM2R3X
         Place this .weights file inside the "configuration 4" folder.
     Then, download the demo video here: https://drive.google.com/open?id=1CGVT3MYePIYaGVQ2szsiaQw2rb9RRf4x
@@ -48,8 +48,8 @@ demonstration.mp4: Screen capture showing the steps to run the provided network,
 2. Open the darknet folder, and edit the MakeFile
 3. In the MakeFile, make GPU=1, CUDNN=1, CUDNN_HALF=1, and OPENCV=1
 4. Type make into the terminal inside the darnet folder
-5. Copy the ATD-R_MWIR folder into the darknet folder
-6. Enter the ATD-R_MWIR folder
+5. Copy the ATD_MWIR folder into the darknet folder
+6. Enter the ATD_MWIR folder
 7. Copy the ATD_image_demo.sh and ATD_image_demo.sh to the root darknet folder
 8. In the terminal (in the root darknet folder) enter bash ATD_image_demo.sh
     The image demo should begin. Press any key to cycle through the images
